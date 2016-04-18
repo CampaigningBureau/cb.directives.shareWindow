@@ -1,19 +1,23 @@
 {
-  "name": "cb_angular_package_template",
+  "name": "cb.directives.sharewindow",
   "version": "0.0.0",
-  "description": "A Template to start a new Angular-JS Package",
+  "description": "A simple directive to open share urls in a popup window",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:mscharl/cb_angular_package_template.git"
+    "url": "git+ssh://git@github.com:CampaigningBureau/cb.directives.shareWindow.git"
   },
   "keywords": [
+    "socialmedia",
+    "share",
+    "angularjs",
+    "angular",
     "campaigningbureau"
   ],
   "author": "Michael Scharl <ms@campaigning-bureau.com>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/mscharl/cb_angular_package_template#readme"
+  "homepage": "https://github.com/CampaigningBureau/cb.directives.shareWindow"
 }
