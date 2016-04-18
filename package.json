@@ -1,0 +1,19 @@
+{
+  "name": "cb_angular_package_template",
+  "version": "0.0.0",
+  "description": "A Template to start a new Angular-JS Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:mscharl/cb_angular_package_template.git"
+  },
+  "keywords": [
+    "campaigningbureau"
+  ],
+  "author": "Michael Scharl <ms@campaigning-bureau.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mscharl/cb_angular_package_template#readme"
+}
