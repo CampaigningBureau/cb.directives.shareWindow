@@ -1,5 +1,5 @@
 {
-  "name": "cb.directives.sharewindow",
+  "name": "cb-directives-sharewindow",
   "version": "0.0.0",
   "description": "A simple directive to open share urls in a popup window",
   "main": "index.js",
