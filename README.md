@@ -1,4 +1,5 @@
 #ShareWindow
+[![npm](https://img.shields.io/npm/dt/cb-directives-sharewindow.svg)](https://www.npmjs.com/package/cb-directives-sharewindow)
 [![Build Status](https://travis-ci.org/CampaigningBureau/cb.directives.shareWindow.svg?branch=master)](https://travis-ci.org/CampaigningBureau/cb.directives.shareWindow)
 
 This directive makes it easy to open a social-media-share link inside a popup window. (But it will also work with any other link)
