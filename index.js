@@ -28,7 +28,7 @@ ngModule.constant('CBShareWindowDefaults', {
  </doc:source>
  </doc:example>
  */
-ngModule.directive('shareWindow', ["CBShareWindowDefaults", function(CBShareWindowDefaults) {
+ngModule.directive('shareWindow', ["CBShareWindowDefaults", "$window", function(CBShareWindowDefaults, $window) {
     var shareWindowDirective = {};
 
     /** @property {string} limit directive to class definition */
@@ -49,7 +49,7 @@ ngModule.directive('shareWindow', ["CBShareWindowDefaults", function(CBShareWind
 
             windowOptions.push('scrollbars=yes');
 
-            var shareWindow = window.open($attrs.href, 'Window', windowOptions.join(','));
+            var shareWindow = $window.open($attrs.href, 'Window', windowOptions.join(','));
             shareWindow.focus();
         }
 

@@ -4,7 +4,8 @@
   "description": "A simple directive to open share urls in a popup window",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "npm install",
+    "test": "./node_modules/.bin/karma start karma.conf.js --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,23 @@
   ],
   "author": "Michael Scharl <ms@campaigning-bureau.com>",
   "license": "ISC",
-  "homepage": "https://github.com/CampaigningBureau/cb.directives.shareWindow"
+  "homepage": "https://github.com/CampaigningBureau/cb.directives.shareWindow",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-mocks": "^1.5.5",
+    "angular-scenario": "^1.5.5",
+    "browserify": "^13.0.0",
+    "jasmine-core": "^2.4.1",
+    "jquery": "^2.2.3",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.3",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.2",
+    "karma-ng-scenario": "^0.1.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "watchify": "^3.7.0"
+  }
 }
