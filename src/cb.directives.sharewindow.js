@@ -1,6 +1,4 @@
-const angular      = require('angular'),
-
-      ngModuleName = 'cb.directives.shareWindow',
+const ngModuleName = 'cb.directives.shareWindow',
       ngModule     = angular.module(ngModuleName, []);
 
 ngModule.constant('CBShareWindowDefaults', {
@@ -60,6 +58,3 @@ ngModule.directive('shareWindow', ["CBShareWindowDefaults", "$window", function(
 
     return shareWindowDirective;
 }]);
-
-
-module.export = ngModuleName;

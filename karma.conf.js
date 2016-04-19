@@ -5,33 +5,21 @@ module.exports = function(config){
 
         files : [
             'node_modules/jquery/dist/jquery.js',
-            'index.js',
+            'node_modules/angular/angular.js',
             'node_modules/angular-mocks/angular-mocks.js',
+            'dist/cb.directives.sharewindow.js',
             'tests/**/*.js'
         ],
 
-        preprocessors: {
-            'index.js': [ 'browserify' ]
-        },
-
         autoWatch : true,
 
-        frameworks: ['jasmine', 'browserify'],
-
-        browsers : ['PhantomJS', 'Chrome', 'Firefox'],
+        frameworks: ['jasmine'],
 
         plugins : [
             'karma-chrome-launcher',
             'karma-firefox-launcher',
             'karma-phantomjs-launcher',
-            'karma-jasmine',
-            'karma-browserify'
-        ],
-
-        browserify: {
-            debug: true,
-            transform: []
-        }
-
+            'karma-jasmine'
+        ]
     });
 };
